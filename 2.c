@@ -8,7 +8,7 @@ int main() {
   int end = 3;   
 
   int j = 0; 
-  for (int i = start; i < end; i++) {
+  for ( int i = start; i < end; i++ ) {
     result[j] = word[i];
     j++;
   }
